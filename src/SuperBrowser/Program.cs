@@ -50,10 +50,6 @@ namespace UltralightCsharpSample1
             mainView.SetAddConsoleMessageCallback(JsConsoleMessage, default);
             mainView.LoadUrl("file:///index.html");
             var mainOverlay = new Overlay(window, mainView, 0, 0);
-            var inspectorView = mainView.CreateInspector();
-            inspectorView.Resize(windowWidth / 2, windowHeight);
-            var inspectorOverlay = new Overlay(window, inspectorView, (int)windowWidth / 2, 0);
-            inspectorOverlay.Hide(); // change to "Show()" for opening developer tools
             mainOverlay.Show();
             app.Run();
         }

@@ -23,5 +23,5 @@ in your SuperBrowser project publish folder create a folder named <b>assets</b>,
 in your SuperBrowser publish folder run <b>SuperBrowser.exe</b>
 
 # DONE
-After completing stepp you will see your <b>Ultralight</b> browser with a fully functional blazor server app :)
+After completing steps you will see your <b>Ultralight</b> browser with a fully functional blazor server app :)
 ![](https://i.imgur.com/FXeTRYL.png)
